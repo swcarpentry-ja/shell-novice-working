@@ -176,7 +176,7 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="01-intro.html">1. Introducing the Shell</a>
+        <a href="01-intro.html">1. シェルの紹介</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -313,7 +313,7 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         
         
-<section id="aio-01-intro"><p>Content from <a href="01-intro.html">Introducing the Shell</a></p>
+<section id="aio-01-intro"><p>Content from <a href="01-intro.html">シェルの紹介</a></p>
 <hr>
 <p>Last updated on 2024-02-20 |
         
@@ -330,7 +330,7 @@
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What is a command shell and why would I use one?</li>
+<li>コマンドシェルとは何ですか？それを使う利点は何ですか？</li>
 </ul>
 </div>
 </div>
@@ -340,10 +340,8 @@
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Explain how the shell relates to the keyboard, the screen, the
-operating system, and users’ programs.</li>
-<li>Explain when and why command-line interfaces should be used instead
-of graphical interfaces.</li>
+<li>シェルがキーボード、画面、オペレーティングシステム、およびユーザーのプログラムとどのように関係しているかを説明する</li>
+<li>グラフィカルインターフェイスの代わりにコマンドラインインターフェイスを使用する場合と理由を説明する</li>
 </ul>
 </div>
 </div>
@@ -587,7 +585,7 @@ advantages.</li>
   <h3 class="accordion-header" id="headingInstructor1">
 <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>Instructor Note</h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>Introducing and navigating the filesystem in the shell (covered in <a href="02-filedir.html">Navigating Files and Directories</a> section) can
 be confusing. You may have both terminal and GUI file explorer open side
@@ -924,7 +922,7 @@ useful nevertheless.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>The <code>-l</code> option makes <code>ls</code> use a
 <strong>l</strong>ong listing format, showing not only the
@@ -960,7 +958,7 @@ option to see the last changed dates.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>The most recently changed file is listed last when using
 <code>-rt</code>. This can be very useful for finding your most recent
@@ -1311,21 +1309,21 @@ commands could Nelle use to navigate to her home directory, which is
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
-<li>No: <code>.</code> stands for the current directory.</li>
-<li>No: <code>/</code> stands for the root directory.</li>
-<li>No: Nelle’s home directory is <code>/Users/nelle</code>.</li>
-<li>No: this command goes up two levels, i.e. ends in
-<code>/Users</code>.</li>
-<li>Yes: <code>~</code> stands for the user’s home directory, in this
-case <code>/Users/nelle</code>.</li>
-<li>No: this command would navigate into a directory <code>home</code>
-in the current directory if it exists.</li>
-<li>Yes: unnecessarily complicated, but correct.</li>
-<li>Yes: shortcut to go back to the user’s home directory.</li>
-<li>Yes: goes up one level.</li>
+<li><p>No: <code>.</code> stands for the current directory.</p></li>
+<li><p>No: <code>/</code> stands for the root directory.</p></li>
+<li><p>No: Nelle’s home directory is <code>/Users/nelle</code>.</p></li>
+<li><p>No: this command goes up two levels, i.e. ends in
+<code>/Users</code>.</p></li>
+<li><p>Yes: <code>~</code> stands for the user’s home directory, in this
+case <code>/Users/nelle</code>.</p></li>
+<li><p>No: this command would navigate into a directory
+<code>home</code> in the current directory if it exists.</p></li>
+<li><p>Yes: unnecessarily complicated, but correct.</p></li>
+<li><p>Yes: shortcut to go back to the user’s home directory.</p></li>
+<li><p>Yes: goes up one level.</p></li>
 </ol>
 </div>
 </div>
@@ -1357,16 +1355,16 @@ display?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Show me the solution</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
-<li>No: there <em>is</em> a directory <code>backup</code> in
-<code>/Users</code>.</li>
-<li>No: this is the content of <code>Users/thing/backup</code>, but with
-<code>..</code>, we asked for one level further up.</li>
-<li>No: see previous explanation.</li>
-<li>Yes: <code>../backup/</code> refers to
-<code>/Users/backup/</code>.</li>
+<li><p>No: there <em>is</em> a directory <code>backup</code> in
+<code>/Users</code>.</p></li>
+<li><p>No: this is the content of <code>Users/thing/backup</code>, but
+with <code>..</code>, we asked for one level further up.</p></li>
+<li><p>No: see previous explanation.</p></li>
+<li><p>Yes: <code>../backup/</code> refers to
+<code>/Users/backup/</code>.</p></li>
 </ol>
 </div>
 </div>
@@ -1403,13 +1401,13 @@ following output:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5">Show me the solution</h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
-<li>No: <code>pwd</code> is not the name of a directory.</li>
-<li>Yes: <code>ls</code> without directory argument lists files and
-directories in the current directory.</li>
-<li>Yes: uses the absolute path explicitly.</li>
+<li><p>No: <code>pwd</code> is not the name of a directory.</p></li>
+<li><p>Yes: <code>ls</code> without directory argument lists files and
+directories in the current directory.</p></li>
+<li><p>Yes: uses the absolute path explicitly.</p></li>
 </ol>
 </div>
 </div>
@@ -1806,7 +1804,7 @@ quotes (<code>""</code>).</p>
   <h3 class="accordion-header" id="headingInstructor1">
 <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>Instructor Note</h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>Learners can sometimes get trapped within command-line text editors
 such as Vim, Emacs, or Nano. Closing the terminal emulator and opening a
@@ -1940,7 +1938,7 @@ up?</p></li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li><p>The <code>touch</code> command generates a new file called
@@ -2148,7 +2146,7 @@ folder (i.e. the one she forgot to put them in)</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb30">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2242,7 +2240,7 @@ commands could you use to do so?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>No. While this would create a file with the correct name, the
@@ -2310,7 +2308,7 @@ sequence shown below?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Show me the solution</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p>We start in the <code>/Users/jamie/data</code> directory, and create
 a new folder called <code>recombined</code>. The second line moves
@@ -2399,7 +2397,7 @@ protection when using <code>rm</code>?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5">Show me the solution</h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
 <div class="accordion-body">
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2493,7 +2491,7 @@ or more file names?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution6" aria-expanded="false" aria-controls="collapseSolution6">
   <h4 class="accordion-header" id="headingSolution6">Show me the solution</h4>
 </button>
-<div id="collapseSolution6" class="accordion-collapse collapse" data-bs-parent="#accordionSolution6" aria-labelledby="headingSolution6">
+<div id="collapseSolution6" class="accordion-collapse collapse" aria-labelledby="headingSolution6" data-bs-parent="#accordionSolution6">
 <div class="accordion-body">
 <p>If given more than one file name followed by a directory name
 (i.e. the destination directory must be the last argument),
@@ -2576,7 +2574,7 @@ command(s) will produce this output?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution7" aria-expanded="false" aria-controls="collapseSolution7">
   <h4 class="accordion-header" id="headingSolution7">Show me the solution</h4>
 </button>
-<div id="collapseSolution7" class="accordion-collapse collapse" data-bs-parent="#accordionSolution7" aria-labelledby="headingSolution7">
+<div id="collapseSolution7" class="accordion-collapse collapse" aria-labelledby="headingSolution7" data-bs-parent="#accordionSolution7">
 <div class="accordion-body">
 <p>The solution is <code>3.</code></p>
 <p><code>1.</code> shows all files whose names contain zero or more
@@ -2698,7 +2696,7 @@ commands to get the job done:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution8" aria-expanded="false" aria-controls="collapseSolution8">
   <h4 class="accordion-header" id="headingSolution8">Show me the solution</h4>
 </button>
-<div id="collapseSolution8" class="accordion-collapse collapse" data-bs-parent="#accordionSolution8" aria-labelledby="headingSolution8">
+<div id="collapseSolution8" class="accordion-collapse collapse" aria-labelledby="headingSolution8" data-bs-parent="#accordionSolution8">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb57">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2763,7 +2761,7 @@ output shown?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution9" aria-expanded="false" aria-controls="collapseSolution9">
   <h4 class="accordion-header" id="headingSolution9">Show me the solution</h4>
 </button>
-<div id="collapseSolution9" class="accordion-collapse collapse" data-bs-parent="#accordionSolution9" aria-labelledby="headingSolution9">
+<div id="collapseSolution9" class="accordion-collapse collapse" aria-labelledby="headingSolution9" data-bs-parent="#accordionSolution9">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb64">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2852,7 +2850,7 @@ What would the other commands do?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution10" aria-expanded="false" aria-controls="collapseSolution10">
   <h4 class="accordion-header" id="headingSolution10">Show me the solution</h4>
 </button>
-<div id="collapseSolution10" class="accordion-collapse collapse" data-bs-parent="#accordionSolution10" aria-labelledby="headingSolution10">
+<div id="collapseSolution10" class="accordion-collapse collapse" aria-labelledby="headingSolution10" data-bs-parent="#accordionSolution10">
 <div class="accordion-body">
 <p>The first two sets of commands achieve this objective. The first set
 uses relative paths to create the top-level directory before the
@@ -3750,16 +3748,15 @@ Which of the following would remove all the processed data files, and
 <div id="collapseSolution8" class="accordion-collapse collapse" data-bs-parent="#accordionSolution8" aria-labelledby="headingSolution8">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
-<li>This would remove <code>.txt</code> files with one-character
-names</li>
-<li>This is the correct answer</li>
-<li>The shell would expand <code>*</code> to match everything in the
+<li><p>This would remove <code>.txt</code> files with one-character
+names</p></li>
+<li><p>This is the correct answer</p></li>
+<li><p>The shell would expand <code>*</code> to match everything in the
 current directory, so the command would try to remove all matched files
-and an additional file called <code>.txt</code>
-</li>
-<li>The shell expands <code>*.*</code> to match all filenames containing
-at least one <code>.</code>, including the processed files
-(<code>.txt</code>) <em>and</em> raw files (<code>.dat</code>)</li>
+and an additional file called <code>.txt</code></p></li>
+<li><p>The shell expands <code>*.*</code> to match all filenames
+containing at least one <code>.</code>, including the processed files
+(<code>.txt</code>) <em>and</em> raw files (<code>.dat</code>)</p></li>
 </ol>
 </div>
 </div>
@@ -5862,7 +5859,7 @@ Miscellaneous:
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>The correct answer is 3, because the <code>-w</code> option looks
 only for whole-word matches. The other options will also match ‘of’ when
@@ -5962,7 +5959,7 @@ one field in a line.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <pre class="source"><code>grep -w $1 -r $2 | cut -d : -f 2 | cut -d , -f 1,3 &gt; $1.txt</code></pre>
 <p>Actually, you can swap the order of the two cut commands and it still
@@ -6010,7 +6007,7 @@ speed.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Solutions</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <pre class="source"><code>for sis in Jo Meg Beth Amy
 do
@@ -6280,7 +6277,7 @@ you have thought about your answer, you can test the commands in the
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Show me the solution</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p>Option 1 is correct. Putting the match expression in quotes prevents
 the shell expanding it, so it gets passed to the <code>find</code>
@@ -6357,13 +6354,13 @@ Comprehension<a class="anchor" aria-label="anchor" href="#find-pipeline-reading-
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5">Show me the solution</h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
-<li>Find all files with a <code>.dat</code> extension recursively from
-the current directory</li>
-<li>Count the number of lines each of these files contains</li>
-<li>Sort the output from step 2. numerically</li>
+<li><p>Find all files with a <code>.dat</code> extension recursively
+from the current directory</p></li>
+<li><p>Count the number of lines each of these files contains</p></li>
+<li><p>Sort the output from step 2. numerically</p></li>
 </ol>
 </div>
 </div>
