@@ -15,4 +15,4 @@
 "learners/reference.md" "a1ed44386dc6c24af7d281a697f08cb6" "site/built/reference.md" "2024-02-20"
 "learners/setup.md" "163fdeac34851abe2b54b60e4b4a74c8" "site/built/setup.md" "2024-02-20"
 "profiles/learner-profiles.md" "5fe5bf7537072422b91ed393ada03f9a" "site/built/learner-profiles.md" "2024-02-20"
-"renv/profiles/lesson-requirements/renv.lock" NA "site/built/renv.lock" "2024-03-05"
+"renv/profiles/lesson-requirements/renv.lock" NA "site/built/renv.lock" "2024-03-12"
